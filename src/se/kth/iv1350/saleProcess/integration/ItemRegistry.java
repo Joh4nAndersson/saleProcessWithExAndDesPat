@@ -4,11 +4,10 @@ public class ItemRegistry {
 
     public ItemDTO itemLookup(int itemID, int quantity) {
 
-        ItemDTO itemDTO = new ItemDTO(validItemID(itemID),
+        return new ItemDTO(validItemID(itemID),
                                         getItemDescription(itemID),
                                         getItemPrice(itemID),
                                         quantity);
-        return itemDTO;
     }
 
     private boolean validItemID(int itemID) {

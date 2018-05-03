@@ -20,6 +20,11 @@ public class Controller {
     }
 
     public double finishSale() {
-        return register.calculateTotal(sale.getRunningTotal());
+        register.calculateTotal(sale);
+        return sale.getTotalWithTaxes();
+    }
+
+    public double pay(double paidAmount) {
+        return register.losAgComplete(paidAmount, sale);
     }
 }

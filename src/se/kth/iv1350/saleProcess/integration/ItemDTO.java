@@ -1,10 +1,10 @@
 package se.kth.iv1350.saleProcess.integration;
 
 public class ItemDTO {
-    boolean validItem;
-    String itemDescription;
-    int priceOfItem;
-    int quantity;
+    private boolean validItem;
+    private String itemDescription;
+    private int priceOfItem;
+    private int quantity;
 
     public ItemDTO(boolean validItem, String itemDescription, int priceOfItem, int quantity) {
         this.validItem = validItem;

@@ -3,13 +3,23 @@ package se.kth.iv1350.saleProcess.view;
 import se.kth.iv1350.saleProcess.controller.Controller;
 import se.kth.iv1350.saleProcess.model.Sale;
 
+/**
+ * This program has no view, instead, this class is a placeholder for the entire view.
+ */
 public class View {
   private Controller contr;
 
+    /**
+     * Creates a new instance.
+     * @param contr The controller that is used for all operations.
+     */
   public View (Controller contr) {
     this.contr = contr;
   }
 
+    /**
+     * Simulates user input that generates calls to all system operations.
+     */
   public void sampleExecutition() {
       contr.startNewSale();
       System.out.println("Starting new sale");
@@ -24,11 +34,13 @@ public class View {
       System.out.println("Running total: " + sale.getRunningTotal());
       System.out.println("");
 
-      //Receipt receipt = contr.finishSale();
-      //System.out.println("Total with taxes: " + receipt.getTotalWithTaxes());
       System.out.println("Finishing Sale");
       double totalWithTaxes = contr.finishSale();
       System.out.println("Total with taxes: " + totalWithTaxes);
+      System.out.println("");
+
+      double change = contr.pay(totalWithTaxes + 5);
+      System.out.println("Payment of: " + (totalWithTaxes + 5) + " resulting in: " + change + " change");
   }
 
 }

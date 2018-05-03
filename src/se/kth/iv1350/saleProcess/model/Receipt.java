@@ -4,24 +4,13 @@ import se.kth.iv1350.saleProcess.integration.ItemDTO;
 import java.util.LinkedList;
 
 public class Receipt {
-    //public static final double SALES_TAX_FACTOR = 1.3;
+    private double totalWithTaxes;
+    private double change;
+    private LinkedList<ItemDTO> itemList;
 
-   //double totalWithTaxes;
-    double change;
-    LinkedList<ItemDTO> itemList;
-
-    public Receipt(Sale sale){
+    public Receipt(Sale sale, double change){
         this.itemList = sale.itemList;
-        //this.totalWithTaxes =
-        //this.totalWithTaxes = additionOfTaxes(sale.total);
-        // TODO: add change
+        this.totalWithTaxes = sale.totalWithTaxes;
+        this.change = change;
     }
-
-   /* public double getTotalWithTaxes() {
-        return totalWithTaxes;
-    }
-
-    private double additionOfTaxes(int total){
-        return total * SALES_TAX_FACTOR;
-    } */
 }

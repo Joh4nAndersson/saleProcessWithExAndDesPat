@@ -5,9 +5,10 @@ import se.kth.iv1350.saleProcess.integration.ItemRegistry;
 import java.util.LinkedList;
 
 public class Sale {
-    int runningTotal;
+    private double runningTotal;
+    double totalWithTaxes;
     LinkedList<ItemDTO> itemList;
-    ItemRegistry itemRegistry;
+    private ItemRegistry itemRegistry;
 
     public Sale(ItemRegistry itemRegistry) {
         this.runningTotal = 0;
@@ -22,12 +23,16 @@ public class Sale {
        return this;
     }
 
-    public int getRunningTotal() {
+    public double getRunningTotal() {
         return runningTotal;
     }
 
     public ItemDTO getItem() {
         return itemList.getLast();
+    }
+
+    public double getTotalWithTaxes() {
+        return totalWithTaxes;
     }
 
 }
