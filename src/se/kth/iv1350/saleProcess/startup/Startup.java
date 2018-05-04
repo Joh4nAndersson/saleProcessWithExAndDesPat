@@ -8,7 +8,16 @@ import se.kth.iv1350.saleProcess.integration.ItemRegistry;
 import se.kth.iv1350.saleProcess.model.Register;
 import se.kth.iv1350.saleProcess.view.View;
 
-public class Main {
+/**
+ * Startup classin program.
+ * Is used to start up the program and create all necessary instances.
+ */
+public class Startup {
+
+    /**
+     * main method in the program that creates instances of the other classes.
+     * @param args Command-line arguments. Unused.
+     */
     public static void main(String[] args) {
         ItemRegistry itemRegistry = new ItemRegistry();
         Printer printer = new Printer();

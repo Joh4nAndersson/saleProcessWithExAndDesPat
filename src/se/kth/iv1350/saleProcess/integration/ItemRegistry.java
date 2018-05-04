@@ -1,7 +1,16 @@
 package se.kth.iv1350.saleProcess.integration;
 
+/**
+ * Class that looks up information on items.
+ */
 public class ItemRegistry {
 
+    /**
+     * Looks up information of item.
+     * @param itemID Item to be looked up.
+     * @param quantity Quantity of said item.
+     * @return Returns Data Transfer Object with item information.
+     */
     public ItemDTO itemLookup(int itemID, int quantity) {
 
         return new ItemDTO(validItemID(itemID),

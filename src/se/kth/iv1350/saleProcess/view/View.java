@@ -39,8 +39,9 @@ public class View {
       System.out.println("Total with taxes: " + totalWithTaxes);
       System.out.println("");
 
-      double change = contr.pay(totalWithTaxes + 5);
-      System.out.println("Payment of: " + (totalWithTaxes + 5) + " resulting in: " + change + " change");
+      int payment = (int) (totalWithTaxes + 10);
+      double change = contr.pay(payment);
+      System.out.println("Payment of: " + payment + " resulting in: " + change + " change");
   }
 
 }
