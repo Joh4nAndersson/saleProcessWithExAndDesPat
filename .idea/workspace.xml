@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7ac14b48-ce63-499f-aa89-b2825ad2318b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/AccountingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/AccountingHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/InventoryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/InventoryHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/ItemDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/ItemRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/ItemRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Sale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/startup/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/startup/Startup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saleProcess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/saleProcess.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,12 +14,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Sale.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Sale.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaleTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/SaleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Register.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/RegisterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/startup/Startup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="101" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -47,19 +93,25 @@
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/ItemRegistry.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/Printer.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Receipt.java" />
-        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Register.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Sale.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/startup/Main.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/startup/Startup.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/view/View.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/controller/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/test/se/kth/iv1350/saleProcess/controller/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/test/se/kth/iv1350/saleProcess/model/SaleTest.java" />
+        <option value="$PROJECT_DIR$/test/se/kth/iv1350/saleProcess/model/RegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Register.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/RegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/SaleTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="460" />
-    <option name="y" value="-9" />
-    <option name="width" value="1372" />
-    <option name="height" value="770" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1040" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -70,6 +122,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,17 +176,35 @@
               <item name="saleProcess" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="saleProcess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/hamcrest-core-1.3.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="se.kth.iv1350.saleProcess.model" />
+      <recent name="se.kth.iv1350.saleProcess.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SaleTest.addItem">
     <configuration name="Startup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.kth.iv1350.saleProcess.startup.Startup" />
       <module name="saleProcess" />
@@ -161,6 +232,75 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="RegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="saleProcess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.kth.iv1350.saleProcess.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="se.kth.iv1350.saleProcess.model" />
+      <option name="MAIN_CLASS_NAME" value="se.kth.iv1350.saleProcess.model.RegisterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RegisterTest.calculateTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="saleProcess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.kth.iv1350.saleProcess.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="se.kth.iv1350.saleProcess.model" />
+      <option name="MAIN_CLASS_NAME" value="se.kth.iv1350.saleProcess.model.RegisterTest" />
+      <option name="METHOD_NAME" value="calculateTotal" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SaleTest.addItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="saleProcess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.kth.iv1350.saleProcess.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="se.kth.iv1350.saleProcess.model" />
+      <option name="MAIN_CLASS_NAME" value="se.kth.iv1350.saleProcess.model.SaleTest" />
+      <option name="METHOD_NAME" value="addItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -200,8 +340,17 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Startup" />
+      <item itemvalue="JUnit.RegisterTest" />
+      <item itemvalue="JUnit.RegisterTest.calculateTotal" />
+      <item itemvalue="JUnit.SaleTest.addItem" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SaleTest.addItem" />
+        <item itemvalue="JUnit.RegisterTest" />
+        <item itemvalue="JUnit.RegisterTest.calculateTotal" />
         <item itemvalue="Application.Startup" />
       </list>
     </recent_temporary>
@@ -216,15 +365,50 @@
       <workItem from="1525263362800" duration="2132000" />
       <workItem from="1525267857268" duration="19217000" />
       <workItem from="1525347310048" duration="6376000" />
-      <workItem from="1525428263623" duration="3235000" />
+      <workItem from="1525428263623" duration="3974000" />
+      <workItem from="1525509891971" duration="2460000" />
+      <workItem from="1525610518908" duration="5819000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RegisterTest_calculateTotal - 2018.05.06 at 16h 13m 41s.xml">
+      <configuration name="RegisterTest.calculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest_calculateTotal - 2018.05.06 at 16h 13m 49s.xml">
+      <configuration name="RegisterTest.calculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest_calculateTotal - 2018.05.06 at 16h 15m 45s.xml">
+      <configuration name="RegisterTest.calculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest_calculateTotal - 2018.05.06 at 16h 15m 57s.xml">
+      <configuration name="RegisterTest.calculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest_calculateTotal - 2018.05.06 at 16h 17m 12s.xml">
+      <configuration name="RegisterTest.calculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest_calculateTotal - 2018.05.06 at 16h 17m 23s.xml">
+      <configuration name="RegisterTest.calculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest_calculateTotal - 2018.05.06 at 16h 21m 42s.xml">
+      <configuration name="RegisterTest.calculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest - 2018.05.06 at 16h 25m 32s.xml">
+      <configuration name="RegisterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTest - 2018.05.06 at 16h 30m 05s.xml">
+      <configuration name="RegisterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaleTest_addItem - 2018.05.06 at 16h 57m 39s.xml">
+      <configuration name="SaleTest.addItem" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30960000" />
+    <option name="totallyTimeSpent" value="39978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -233,23 +417,23 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.32943678" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17604166" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -261,6 +445,36 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Sale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/AccountingHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -277,14 +491,6 @@
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -305,6 +511,10 @@
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -356,12 +566,6 @@
           <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#2045#2046#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2344#2345#0" expanded="true" />
-            <element signature="e#2404#2405#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -372,8 +576,6 @@
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -384,14 +586,6 @@
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -436,12 +630,6 @@
           <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#2045#2046#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2344#2345#0" expanded="true" />
-            <element signature="e#2404#2405#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -462,31 +650,11 @@
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/SaleDTO.java" />
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/InventoryHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -524,21 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/ItemRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -546,58 +699,6 @@
           <folding>
             <element signature="e#276#277#0" expanded="true" />
             <element signature="e#303#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Receipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#2045#2046#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2344#2345#0" expanded="true" />
-            <element signature="e#2404#2405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Sale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/startup/Startup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -612,5 +713,172 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/controller/ControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/se/kth/iv1350/saleProcess/controller/ControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Receipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/integration/ItemRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saleProcess.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/se/kth/iv1350/saleProcess/model/SaleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/startup/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="101" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/se/kth/iv1350/saleProcess/model/RegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="23" lean-forward="true" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/RegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/Sale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcess/model/SaleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>saleProcess</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
