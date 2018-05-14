@@ -4,10 +4,10 @@ package se.kth.iv1350.saleProcess.integration;
  * Data Transfer Object for the Items.
  */
 public class ItemDTO {
-    private boolean validItem;
-    private String itemDescription;
-    private int priceOfItem;
-    private int quantity;
+    private final boolean validItem;
+    private final String itemDescription;
+    private final int priceOfItem;
+    private final int quantity;
 
     /**
      * Creates a new instance.

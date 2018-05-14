@@ -1,6 +1,7 @@
 package se.kth.iv1350.saleProcess.view;
 
 import se.kth.iv1350.saleProcess.controller.Controller;
+import se.kth.iv1350.saleProcess.integration.ItemDTO;
 import se.kth.iv1350.saleProcess.model.Sale;
 
 /**
@@ -25,13 +26,13 @@ public class View {
       System.out.println("Starting new sale");
       System.out.println("");
 
-      Sale sale = contr.enterItem(8, 2);
+      ItemDTO itemDTO = contr.enterItem(8, 2);
       System.out.println("Entering item with ID: 8, quantity: 2");
-      System.out.println("Item price: " + sale.getItem().getPriceOfItem());
+      System.out.println("Item price: " + itemDTO.getPriceOfItem());
       System.out.println("");
 
-      System.out.println("Item Description: " + sale.getItem().getItemDescription());
-      System.out.println("Running total: " + sale.getRunningTotal());
+      System.out.println("Item Description: " + itemDTO.getItemDescription());
+      System.out.println("Running total: " + contr.getRunningTotal());
       System.out.println("");
 
       System.out.println("Finishing Sale");

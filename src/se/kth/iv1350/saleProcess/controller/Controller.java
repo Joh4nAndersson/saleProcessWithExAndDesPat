@@ -1,5 +1,6 @@
 package se.kth.iv1350.saleProcess.controller;
 
+import se.kth.iv1350.saleProcess.integration.ItemDTO;
 import se.kth.iv1350.saleProcess.model.Register;
 import se.kth.iv1350.saleProcess.model.Sale;
 
@@ -31,7 +32,7 @@ public class Controller {
      * @param quantity Number of said item to be entered.
      * @return Returns object containing sale information.
      */
-    public Sale enterItem(int itemID, int quantity) {
+    public ItemDTO enterItem(int itemID, int quantity) {
         return sale.addItem(itemID, quantity);
     }
 
@@ -43,6 +44,10 @@ public class Controller {
     public double finishSale() {
         register.calculateTotal(sale);
         return sale.getTotalWithTaxes();
+    }
+
+    public double getRunningTotal() {
+        return sale.getRunningTotal();
     }
 
     /**

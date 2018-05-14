@@ -29,11 +29,11 @@ public class Sale {
      * @param quantity Number of said item to be added.
      * @return Sale object containing sale information is returned.
      */
-    public Sale addItem(int itemID, int quantity) {
+    public ItemDTO addItem(int itemID, int quantity) {
        ItemDTO itemDTO = itemRegistry.itemLookup(itemID, quantity);
        itemList.add(itemDTO);
        runningTotal += itemDTO.getPriceOfItem() * quantity;
-       return this;
+       return itemDTO;
     }
 
     /**
