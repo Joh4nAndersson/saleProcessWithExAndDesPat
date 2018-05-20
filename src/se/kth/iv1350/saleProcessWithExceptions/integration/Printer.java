@@ -1,6 +1,6 @@
-package se.kth.iv1350.saleProcess.integration;
+package se.kth.iv1350.saleProcessWithExceptions.integration;
 
-import se.kth.iv1350.saleProcess.model.Receipt;
+import se.kth.iv1350.saleProcessWithExceptions.model.Receipt;
 
 /**
  * Class that handles printing of receipts.

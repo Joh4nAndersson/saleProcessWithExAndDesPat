@@ -1,15 +1,15 @@
-package se.kth.iv1350.saleProcess.startup;
+package se.kth.iv1350.saleProcessWithExceptions.startup;
 
-import se.kth.iv1350.saleProcess.controller.Controller;
-import se.kth.iv1350.saleProcess.integration.AccountingHandler;
-import se.kth.iv1350.saleProcess.integration.Printer;
-import se.kth.iv1350.saleProcess.integration.InventoryHandler;
-import se.kth.iv1350.saleProcess.integration.ItemRegistry;
-import se.kth.iv1350.saleProcess.model.Register;
-import se.kth.iv1350.saleProcess.view.View;
+import se.kth.iv1350.saleProcessWithExceptions.controller.Controller;
+import se.kth.iv1350.saleProcessWithExceptions.integration.AccountingHandler;
+import se.kth.iv1350.saleProcessWithExceptions.integration.Printer;
+import se.kth.iv1350.saleProcessWithExceptions.integration.InventoryHandler;
+import se.kth.iv1350.saleProcessWithExceptions.integration.ItemRegistry;
+import se.kth.iv1350.saleProcessWithExceptions.model.Register;
+import se.kth.iv1350.saleProcessWithExceptions.view.View;
 
 /**
- * Startup classin program.
+ * Startup class in program.
  * Is used to start up the program and create all necessary instances.
  */
 public class Startup {

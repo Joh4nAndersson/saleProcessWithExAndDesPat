@@ -1,4 +1,4 @@
-package se.kth.iv1350.saleProcess.integration;
+package se.kth.iv1350.saleProcessWithExceptions.integration;
 
 /**
  * Data Transfer Object for the Items.

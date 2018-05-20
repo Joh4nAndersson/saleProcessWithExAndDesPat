@@ -1,6 +1,6 @@
-package se.kth.iv1350.saleProcess.integration;
+package se.kth.iv1350.saleProcessWithExceptions.integration;
 
-import se.kth.iv1350.saleProcess.model.Sale;
+import se.kth.iv1350.saleProcessWithExceptions.model.Sale;
 import java.util.LinkedList;
 
 /**
@@ -20,7 +20,10 @@ public class InventoryHandler {
      * Sends sale information to the external accounting system
      * @param sale Object containing sale information
      */
-    public void sendToInventory(Sale sale) {
+    public void sendToInventory(Sale sale) throws DatabaseFailureException {
+        if(sale.getItem().getPriceOfItem() == 5)
+            throw new DatabaseFailureException("ERROR, Database failure, Inventory system");
+
         inventoryList.add(sale);
     }
 }

@@ -1,6 +1,6 @@
-package se.kth.iv1350.saleProcess.integration;
+package se.kth.iv1350.saleProcessWithExceptions.integration;
 
-import se.kth.iv1350.saleProcess.model.Sale;
+import se.kth.iv1350.saleProcessWithExceptions.model.Sale;
 import java.util.LinkedList;
 
 /**
@@ -10,7 +10,7 @@ public class AccountingHandler {
     private LinkedList<Sale> accountingList;
 
     /**
-     * Creates a new instace.
+     * Creates a new instance.
      */
     public AccountingHandler() {
         this.accountingList = new LinkedList<>();
@@ -20,7 +20,10 @@ public class AccountingHandler {
      * Sends sale information to the external accounting system
      * @param sale Object containing sale information
      */
-    public void sendToAccounting(Sale sale) {
+    public void sendToAccounting(Sale sale) throws DatabaseFailureException {
+        if(sale.getItem().getPriceOfItem() == 5)
+            throw new DatabaseFailureException("ERROR, Database failure, Accounting system");
+
         this.accountingList.add(sale);
     }
 }

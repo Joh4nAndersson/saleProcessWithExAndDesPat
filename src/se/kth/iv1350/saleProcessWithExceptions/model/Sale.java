@@ -1,7 +1,8 @@
-package se.kth.iv1350.saleProcess.model;
+package se.kth.iv1350.saleProcessWithExceptions.model;
 
-import se.kth.iv1350.saleProcess.integration.ItemDTO;
-import se.kth.iv1350.saleProcess.integration.ItemRegistry;
+import se.kth.iv1350.saleProcessWithExceptions.integration.ItemDTO;
+import se.kth.iv1350.saleProcessWithExceptions.integration.ItemNotFoundException;
+import se.kth.iv1350.saleProcessWithExceptions.integration.ItemRegistry;
 import java.util.LinkedList;
 
 /**
@@ -28,8 +29,9 @@ public class Sale {
      * @param itemID Identifier of item to be added.
      * @param quantity Number of said item to be added.
      * @return Sale object containing sale information is returned.
+     * @throws ItemNotFoundException Thrown if the itemID is invalid
      */
-    public ItemDTO addItem(int itemID, int quantity) {
+    public ItemDTO addItem(int itemID, int quantity) throws ItemNotFoundException {
        ItemDTO itemDTO = itemRegistry.itemLookup(itemID, quantity);
        itemList.add(itemDTO);
        runningTotal += itemDTO.getPriceOfItem() * quantity;

@@ -1,9 +1,7 @@
-package se.kth.iv1350.saleProcess.model;
+package se.kth.iv1350.saleProcessWithExceptions.model;
 
-import se.kth.iv1350.saleProcess.integration.AccountingHandler;
-import se.kth.iv1350.saleProcess.integration.Printer;
-import se.kth.iv1350.saleProcess.integration.InventoryHandler;
-import se.kth.iv1350.saleProcess.integration.ItemRegistry;
+import se.kth.iv1350.saleProcessWithExceptions.controller.OperationFailedException;
+import se.kth.iv1350.saleProcessWithExceptions.integration.*;
 
 /**
  * Class representing the register.
@@ -36,7 +34,7 @@ public class Register {
      * @param sale Object containing sale information.
      * @return The amount of change is returned.
      */
-    public double losAgComplete(double paidAmount, Sale sale) {
+    public double losAgComplete(double paidAmount, Sale sale) throws DatabaseFailureException {
         accountingHandler.sendToAccounting(sale);
         inventoryHandler.sendToInventory(sale);
         double change = calculateChange(paidAmount, sale);
