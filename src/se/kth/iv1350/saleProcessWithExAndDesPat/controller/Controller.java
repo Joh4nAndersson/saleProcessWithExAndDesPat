@@ -1,10 +1,15 @@
-package se.kth.iv1350.saleProcessWithExceptions.controller;
+package se.kth.iv1350.saleProcessWithExAndDesPat.controller;
 
-import se.kth.iv1350.saleProcessWithExceptions.integration.DatabaseFailureException;
-import se.kth.iv1350.saleProcessWithExceptions.integration.ItemDTO;
-import se.kth.iv1350.saleProcessWithExceptions.integration.ItemNotFoundException;
-import se.kth.iv1350.saleProcessWithExceptions.model.Register;
-import se.kth.iv1350.saleProcessWithExceptions.model.Sale;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.DatabaseFailureException;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.ItemDTO;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.ItemNotFoundException;
+import se.kth.iv1350.saleProcessWithExAndDesPat.model.Register;
+import se.kth.iv1350.saleProcessWithExAndDesPat.model.RevenueObserver;
+import se.kth.iv1350.saleProcessWithExAndDesPat.model.Sale;
+import se.kth.iv1350.saleProcessWithExAndDesPat.view.TotalRevenueView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This is the applications controller class. All calls to the model class pass through this controller.
@@ -12,6 +17,7 @@ import se.kth.iv1350.saleProcessWithExceptions.model.Sale;
 public class Controller {
     private Register register;
     private Sale sale;
+    //private List<RevenueObserver> revenueObservers = new ArrayList<>();
 
     /**
      * Creates a new instance.
@@ -66,5 +72,9 @@ public class Controller {
             throw new OperationFailedException("Operation failed, try again", exc);
         }
 
+    }
+
+    public void addRevenueObserver(TotalRevenueView obs) {
+        register.addRevenueObserver(obs);
     }
 }

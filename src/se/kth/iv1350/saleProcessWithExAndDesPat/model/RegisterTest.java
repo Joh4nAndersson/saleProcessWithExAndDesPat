@@ -1,12 +1,12 @@
-package se.kth.iv1350.saleProcessWithExceptions.model;
+package se.kth.iv1350.saleProcessWithExAndDesPat.model;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import se.kth.iv1350.saleProcessWithExceptions.integration.AccountingHandler;
-import se.kth.iv1350.saleProcessWithExceptions.integration.InventoryHandler;
-import se.kth.iv1350.saleProcessWithExceptions.integration.ItemRegistry;
-import se.kth.iv1350.saleProcessWithExceptions.integration.Printer;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.AccountingHandler;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.InventoryHandler;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.ItemRegistry;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.Printer;
 
 import static org.junit.Assert.*;
 

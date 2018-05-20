@@ -1,7 +1,9 @@
-package se.kth.iv1350.saleProcessWithExceptions.model;
+package se.kth.iv1350.saleProcessWithExAndDesPat.model;
 
-import se.kth.iv1350.saleProcessWithExceptions.controller.OperationFailedException;
-import se.kth.iv1350.saleProcessWithExceptions.integration.*;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Class representing the register.
@@ -13,6 +15,7 @@ public class Register {
     private AccountingHandler accountingHandler;
     private InventoryHandler inventoryHandler;
     private ItemRegistry itemRegistry;
+    private List<RevenueObserver> revenueObservers = new ArrayList<>();
 
     /**
      * Creates a new instance.
@@ -40,6 +43,7 @@ public class Register {
         double change = calculateChange(paidAmount, sale);
         Receipt receipt = new Receipt(sale, change);
         printer.print(receipt);
+        notifyObservers(sale);
         return change;
     }
 
@@ -67,5 +71,15 @@ public class Register {
      */
     private double calculateChange(double paidAmount, Sale sale) {
         return paidAmount - sale.getTotalWithTaxes();
+    }
+
+    public void addRevenueObserver(RevenueObserver obs) {
+        revenueObservers.add(obs);
+    }
+
+    private void notifyObservers(Sale sale) {
+        for (RevenueObserver obs : revenueObservers) {
+            obs.newSale(sale);
+        }
     }
 }

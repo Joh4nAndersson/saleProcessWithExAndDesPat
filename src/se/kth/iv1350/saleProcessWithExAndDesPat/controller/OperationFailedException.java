@@ -1,4 +1,4 @@
-package se.kth.iv1350.saleProcessWithExceptions.controller;
+package se.kth.iv1350.saleProcessWithExAndDesPat.controller;
 
 /**
  * Thrown when an operation fails and the reason is unknown

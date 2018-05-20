@@ -1,6 +1,6 @@
-package se.kth.iv1350.saleProcessWithExceptions.model;
+package se.kth.iv1350.saleProcessWithExAndDesPat.model;
 
-import se.kth.iv1350.saleProcessWithExceptions.integration.ItemDTO;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.ItemDTO;
 import java.util.LinkedList;
 
 /**

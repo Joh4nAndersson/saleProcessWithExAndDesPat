@@ -1,4 +1,4 @@
-package se.kth.iv1350.saleProcessWithExceptions.view;
+package se.kth.iv1350.saleProcessWithExAndDesPat.view;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

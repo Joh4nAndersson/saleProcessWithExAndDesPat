@@ -1,10 +1,10 @@
-package se.kth.iv1350.saleProcessWithExceptions.model;
+package se.kth.iv1350.saleProcessWithExAndDesPat.model;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import se.kth.iv1350.saleProcessWithExceptions.integration.ItemNotFoundException;
-import se.kth.iv1350.saleProcessWithExceptions.integration.ItemRegistry;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.ItemNotFoundException;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.ItemRegistry;
 
 import static org.junit.Assert.*;
 

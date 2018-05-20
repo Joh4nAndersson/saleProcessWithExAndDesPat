@@ -1,10 +1,10 @@
-package se.kth.iv1350.saleProcessWithExceptions.view;
+package se.kth.iv1350.saleProcessWithExAndDesPat.view;
 
-import se.kth.iv1350.saleProcessWithExceptions.controller.Controller;
-import se.kth.iv1350.saleProcessWithExceptions.controller.OperationFailedException;
-import se.kth.iv1350.saleProcessWithExceptions.integration.ItemDTO;
-import se.kth.iv1350.saleProcessWithExceptions.integration.ItemNotFoundException;
-import se.kth.iv1350.saleProcessWithExceptions.util.LogHandler;
+import se.kth.iv1350.saleProcessWithExAndDesPat.controller.Controller;
+import se.kth.iv1350.saleProcessWithExAndDesPat.controller.OperationFailedException;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.ItemDTO;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.ItemNotFoundException;
+import se.kth.iv1350.saleProcessWithExAndDesPat.util.LogHandler;
 
 /**
  * This program has no view, instead, this class is a placeholder for the entire view.
@@ -20,13 +20,14 @@ public class View {
      */
   public View (Controller contr) {
     this.contr = contr;
+    contr.addRevenueObserver(new TotalRevenueView());
     this.logger = new LogHandler();
   }
 
     /**
      * Simulates user input that generates calls to all system operations.
      */
-  public void sampleExecutition() {
+  public void sampleExecution() {
       contr.startNewSale();
       System.out.println("Starting new sale");
       System.out.println("");
@@ -60,13 +61,32 @@ public class View {
           double change = contr.pay(payment);
           System.out.println("Payment of: " + payment + " resulting in: " + change + " change");
       }
-      catch (OperationFailedException exc) {
+      catch (Exception exc) {
             handleException(exc);
       }
-      catch(ItemNotFoundException exc) {
+
+      try {
+          ItemDTO itemDTO = contr.enterItem(6, 2);
+          System.out.println("Entering item with ID: 5, quantity: 1");
+          System.out.println("Item price: " + itemDTO.getPriceOfItem());
+          System.out.println("");
+
+          System.out.println("Item Description: " + itemDTO.getItemDescription());
+          System.out.println("Running total: " + contr.getRunningTotal());
+          System.out.println("");
+
+          System.out.println("Finishing Sale");
+          double totalWithTaxes = contr.finishSale();
+          System.out.println("Total with taxes: " + totalWithTaxes);
+          System.out.println("");
+
+          int payment = (int) (totalWithTaxes + 10);
+          double change = contr.pay(payment);
+          System.out.println("Payment of: " + payment + " resulting in: " + change + " change");
+      }
+      catch (Exception exc) {
           handleException(exc);
       }
-
 
 
 

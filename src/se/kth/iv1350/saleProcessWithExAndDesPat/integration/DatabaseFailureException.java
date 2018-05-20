@@ -1,4 +1,4 @@
-package se.kth.iv1350.saleProcessWithExceptions.integration;
+package se.kth.iv1350.saleProcessWithExAndDesPat.integration;
 
 public class DatabaseFailureException extends RuntimeException {
 

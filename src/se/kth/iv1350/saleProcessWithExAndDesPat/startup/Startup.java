@@ -1,12 +1,12 @@
-package se.kth.iv1350.saleProcessWithExceptions.startup;
+package se.kth.iv1350.saleProcessWithExAndDesPat.startup;
 
-import se.kth.iv1350.saleProcessWithExceptions.controller.Controller;
-import se.kth.iv1350.saleProcessWithExceptions.integration.AccountingHandler;
-import se.kth.iv1350.saleProcessWithExceptions.integration.Printer;
-import se.kth.iv1350.saleProcessWithExceptions.integration.InventoryHandler;
-import se.kth.iv1350.saleProcessWithExceptions.integration.ItemRegistry;
-import se.kth.iv1350.saleProcessWithExceptions.model.Register;
-import se.kth.iv1350.saleProcessWithExceptions.view.View;
+import se.kth.iv1350.saleProcessWithExAndDesPat.controller.Controller;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.AccountingHandler;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.Printer;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.InventoryHandler;
+import se.kth.iv1350.saleProcessWithExAndDesPat.integration.ItemRegistry;
+import se.kth.iv1350.saleProcessWithExAndDesPat.model.Register;
+import se.kth.iv1350.saleProcessWithExAndDesPat.view.View;
 
 /**
  * Startup class in program.
@@ -27,6 +27,6 @@ public class Startup {
         Controller contr = new Controller(register);
         View view = new View(contr);
 
-        view.sampleExecutition();
+        view.sampleExecution();
     }
 }
