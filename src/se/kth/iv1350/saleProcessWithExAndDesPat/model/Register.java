@@ -43,7 +43,7 @@ public class Register {
         double change = calculateChange(paidAmount, sale);
         Receipt receipt = new Receipt(sale, change);
         printer.print(receipt);
-        notifyObservers(sale);
+        notifyObservers(sale.getTotalWithTaxes());
         return change;
     }
 
@@ -77,9 +77,9 @@ public class Register {
         revenueObservers.add(obs);
     }
 
-    private void notifyObservers(Sale sale) {
+    private void notifyObservers(double totalWithTaxes) {
         for (RevenueObserver obs : revenueObservers) {
-            obs.newSale(sale);
+            obs.newSale(totalWithTaxes);
         }
     }
 }

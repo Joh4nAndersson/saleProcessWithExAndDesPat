@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac14b48-ce63-499f-aa89-b2825ad2318b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/controller/OperationFailedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/integration/AccountingHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/integration/DatabaseFailureException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/integration/InventoryHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/integration/ItemDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/integration/ItemNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/integration/ItemRegistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/integration/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/model/Receipt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/model/Register.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/model/RegisterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/model/Sale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/model/SaleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/startup/Startup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/util/LogHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/view/ErrorMessageHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExceptions/view/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/RevenueObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/RevenueObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/TotalRevenueView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/TotalRevenueView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +19,8 @@
       <file leaf-file-name="Register.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/Register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+            <state relative-caret-position="572">
+              <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2452#2453#0" expanded="true" />
@@ -48,10 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemRegistry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/integration/ItemRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="62">
               <caret line="68" column="50" lean-forward="true" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,7 +80,7 @@
       <file leaf-file-name="ErrorMessageHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/ErrorMessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
+            <state relative-caret-position="153">
               <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,7 +92,7 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
+            <state relative-caret-position="-312">
               <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,28 +103,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TotalRevenueView.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TotalRevenueView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/TotalRevenueView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="204">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#363#364#0" expanded="true" />
                 <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
                 <element signature="e#666#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Receipt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/Receipt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,8 +121,8 @@
       <file leaf-file-name="RevenueObserver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/RevenueObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -204,20 +185,20 @@
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/integration/Printer.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/Receipt.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/RegisterTest.java" />
-        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/RevenueObserver.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/Sale.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/SaleTest.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/startup/Startup.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/util/LogHandler.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/ErrorMessageHandler.java" />
-        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/TotalRevenueView.java" />
-        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/Register.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/View.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/Register.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/RevenueObserver.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/TotalRevenueView.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1040" />
@@ -490,7 +471,7 @@
       <workItem from="1526718369113" duration="234000" />
       <workItem from="1526719103783" duration="13573000" />
       <workItem from="1526821120230" duration="1662000" />
-      <workItem from="1526830991028" duration="3784000" />
+      <workItem from="1526830991028" duration="7933000" />
     </task>
     <servers />
   </component>
@@ -527,7 +508,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59894000" />
+    <option name="totallyTimeSpent" value="64043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -540,7 +521,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.32943678" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.32731137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.17853348" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
@@ -643,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/integration/ItemRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="48" selection-start-column="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/integration/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -688,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/RevenueObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/Receipt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -705,9 +672,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/integration/ItemRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="68" column="50" lean-forward="true" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
+        <state relative-caret-position="-312">
           <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -717,35 +701,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/startup/Startup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/ErrorMessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="153">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/TotalRevenueView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -760,10 +721,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/startup/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        <state relative-caret-position="572">
+          <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2452#2453#0" expanded="true" />
@@ -774,12 +745,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/model/RevenueObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="68" column="50" lean-forward="true" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
+        <state relative-caret-position="153">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/iv1350/saleProcessWithExAndDesPat/view/TotalRevenueView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
           </folding>
         </state>
       </provider>

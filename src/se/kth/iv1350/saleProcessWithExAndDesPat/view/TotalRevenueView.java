@@ -1,7 +1,6 @@
 package se.kth.iv1350.saleProcessWithExAndDesPat.view;
 
 import se.kth.iv1350.saleProcessWithExAndDesPat.model.RevenueObserver;
-import se.kth.iv1350.saleProcessWithExAndDesPat.model.Sale;
 
 /**
  * Displays the total amount of revenue
@@ -21,8 +20,8 @@ public class TotalRevenueView implements RevenueObserver {
      * @param sale The sale to be added to the revenue counter
      */
     @Override
-    public void newSale(Sale sale) {
-        totalRevenue += sale.getTotalWithTaxes();
+    public void newSale(double totalWithTaxes) {
+        totalRevenue += totalWithTaxes;
         printCurrentState();
     }
 

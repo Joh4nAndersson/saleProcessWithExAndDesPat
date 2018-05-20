@@ -7,5 +7,5 @@ public interface RevenueObserver {
      * Invoked when a sale has been paid
      * @param The sale that was paid for
      */
-    void newSale(Sale sale);
+    void newSale(double totalWithTaxes);
 }
